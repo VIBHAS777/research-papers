@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Exclude loose root-level raw files & folders in local workspace
+/*.pdf
+/certificates/
+_archive/
+raw_originals/
