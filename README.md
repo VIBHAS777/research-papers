@@ -11,17 +11,20 @@
 
 This repository archives selected research publications and conference presentation certificates.
 
-| # | Paper Title | Venue / Conference | Status | Paper PDF | Certificate / Proof |
-|---|-------------|--------------------|--------|-----------|----------------------|
-| **[5]** | Enhancing CPU Benchmark Scores Using RNN-Based Deadlock Detection from System Logs | **16th ICCCNT 2025** (IIT Indore) | Presented | [📄 Paper](./05-RNN-Based-Deadlock-Detection/Enhancing_CPU_Benchmark_Scores_Using_RNN_Based_Deadlock_Detection.pdf) | [🎖️ Certificate](./05-RNN-Based-Deadlock-Detection/Certificate_ICCCNT_2025.pdf) |
-| **[6]** | Optimization of Space Shuttle External Tank Design Return on Investment (ROI) | **ICAANA 2025** (Amrita Coimbatore) | Presented | [📄 Paper](./06-Space-Shuttle-External-Tank-ROI/Optimization_of_Space_Shuttle_External_Tank_Design_ROI.pdf) | — |
-| **[7]** | Automated Medical Image Analysis for Brain Tumor and Skin Disease Diagnosis Using Transfer Learning and Grad-CAM | **3rd ICITEICS 2026** | Presented | [📄 Paper](./07-Automated-Medical-Image-Analysis-Grad-CAM/Automated_Medical_Image_Analysis_for_Brain_Tumor_and_Skin_Disease.pdf) | [🎖️ Certificate](./07-Automated-Medical-Image-Analysis-Grad-CAM/Certificate_ICITEICS_2026.pdf) |
-| **[8]** | AI-Driven Load Balancer with Blockchain-Based Decision Making in Banking System | **10th ICECA 2026** | Presented | [📄 Paper](./08-AI-Driven-Load-Balancer-Banking/AI_Driven_Load_Balancer_with_Blockchain_Decision_Making_in_Banking.pdf) | [🎖️ Certificate](./08-AI-Driven-Load-Balancer-Banking/Certificate_ICECA_2026.pdf) |
-| **[9]** | Stability Threshold and Performance Degradation Analysis of Priority-Aware SDN in Healthcare IoT Systems | **6th ICUIS 2026** | Presented | [📄 Paper](./09-Priority-Aware-SDN-Healthcare-IoT/Stability_Threshold_and_Performance_Degradation_Priority_Aware_SDN.pdf) | [🎖️ Certificate](./09-Priority-Aware-SDN-Healthcare-IoT/Certificate_ICUIS_2026.pdf) |
-| **[10]** | Intelligent Congestion Prediction and Control in Data Center Networks Using SDN and Deep Learning | **ICon INDIA 2026** | Accepted | [📄 Paper](./10-SDN-Deep-Learning-Congestion-Control/Intelligent_Congestion_Prediction_and_Control_in_Data_Center_Networks.pdf) | [📩 Acceptance](./10-SDN-Deep-Learning-Congestion-Control/Acceptance_Email_ICon_INDIA_2026.pdf) |
-| **[11]** | A Unified Machine Learning Pipeline for Early Prediction of Heart Disease, Diabetes Mellitus, and Alzheimer’s Disease | **ICRTAC 2026** | Accepted | [📄 Paper](./11-Unified-Chronic-Disease-Prediction-Pipeline/Unified_ML_Pipeline_Early_Prediction_Heart_Disease_Diabetes_Alzheimers.pdf) | [📩 Acceptance](./11-Unified-Chronic-Disease-Prediction-Pipeline/Acceptance.pdf) |
-| **[12]** | A Low-Cost Real-Time Multimodal Seizure Detection System Using MAX30102 and Accelerometry | **ICACS 2026** | Under Review | [📄 Paper](./12-Multimodal-Seizure-Detection-MAX30102/Low_Cost_Real_Time_Multimodal_Seizure_Detection_System_MAX30102.pdf) | — |
-| **[13]** | Detecting Health Misinformation: AI Solutions for Medical and Policy Content | **4th IEEE ICKECS 2026** | 🏆 **Best Paper Award** | [📄 Paper](./13-Detecting-Health-Misinformation-AI-Solutions/Detecting_Health_Misinformation_AI_Solutions_for_Medical_and_Policy_Content.pdf) | [🏆 Award Certificate](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.pdf) |
+| # | Paper Title | Venue / Conference | Status | Paper PDF | Certificate / Proof | Source Code Repository |
+|---|-------------|--------------------|--------|-----------|----------------------|------------------------|
+| **[5]** | Enhancing CPU Benchmark Scores Using RNN-Based Deadlock Detection from System Logs | **16th ICCCNT 2025** (IIT Indore) | Presented | [📄 Paper](./05-RNN-Based-Deadlock-Detection/Enhancing_CPU_Benchmark_Scores_Using_RNN_Based_Deadlock_Detection.pdf) | [🎖️ Certificate](./05-RNN-Based-Deadlock-Detection/Certificate_ICCCNT_2025.pdf) | [💻 `rnn-deadlock-detection`](https://github.com/VIBHAS777/rnn-deadlock-detection) |
+| **[6]** | Optimization of Space Shuttle External Tank Design Return on Investment (ROI) | **ICAANA 2025** (Amrita Coimbatore) | Presented | [📄 Paper](./06-Space-Shuttle-External-Tank-ROI/Optimization_of_Space_Shuttle_External_Tank_Design_ROI.pdf) | — | [💻 `space-shuttle-tank-roi-optimization`](https://github.com/VIBHAS777/space-shuttle-tank-roi-optimization) |
+| **[7]** | Automated Medical Image Analysis for Brain Tumor and Skin Disease Diagnosis Using Transfer Learning and Grad-CAM | **3rd ICITEICS 2026** | Presented | [📄 Paper](./07-Automated-Medical-Image-Analysis-Grad-CAM/Automated_Medical_Image_Analysis_for_Brain_Tumor_and_Skin_Disease.pdf) | [🎖️ Certificate](./07-Automated-Medical-Image-Analysis-Grad-CAM/Certificate_ICITEICS_2026.pdf) | [💻 `medical-image-analysis-gradcam`](https://github.com/VIBHAS777/medical-image-analysis-gradcam) |
+| **[8]** | AI-Driven Load Balancer with Blockchain-Based Decision Making in Banking System | **10th ICECA 2026** | Presented | [📄 Paper](./08-AI-Driven-Load-Balancer-Banking/AI_Driven_Load_Balancer_with_Blockchain_Decision_Making_in_Banking.pdf) | [🎖️ Certificate](./08-AI-Driven-Load-Balancer-Banking/Certificate_ICECA_2026.pdf) | [💻 `blockchain-ai-load-balancer-banking`](https://github.com/VIBHAS777/blockchain-ai-load-balancer-banking) |
+| **[9]** | Stability Threshold and Performance Degradation Analysis of Priority-Aware SDN in Healthcare IoT Systems | **6th ICUIS 2026** | Presented | [📄 Paper](./09-Priority-Aware-SDN-Healthcare-IoT/Stability_Threshold_and_Performance_Degradation_Priority_Aware_SDN.pdf) | [🎖️ Certificate](./09-Priority-Aware-SDN-Healthcare-IoT/Certificate_ICUIS_2026.pdf) | [💻 `priority-aware-sdn-healthcare-iot`](https://github.com/VIBHAS777/priority-aware-sdn-healthcare-iot) |
+| **[10]** | Intelligent Congestion Prediction and Control in Data Center Networks Using SDN and Deep Learning | **ICon INDIA 2026** | Accepted | [📄 Paper](./10-SDN-Deep-Learning-Congestion-Control/Intelligent_Congestion_Prediction_and_Control_in_Data_Center_Networks.pdf) | [📩 Acceptance](./10-SDN-Deep-Learning-Congestion-Control/Acceptance_Email_ICon_INDIA_2026.pdf) | [💻 `sdn-congestion-control-deeplearning`](https://github.com/VIBHAS777/sdn-congestion-control-deeplearning) |
+| **[11]** | A Unified Machine Learning Pipeline for Early Prediction of Heart Disease, Diabetes Mellitus, and Alzheimer’s Disease | **ICRTAC 2026** | Accepted | [📄 Paper](./11-Unified-Chronic-Disease-Prediction-Pipeline/Unified_ML_Pipeline_Early_Prediction_Heart_Disease_Diabetes_Alzheimers.pdf) | [📩 Acceptance](./11-Unified-Chronic-Disease-Prediction-Pipeline/Acceptance.pdf) | [💻 `unified-chronic-disease-prediction`](https://github.com/VIBHAS777/unified-chronic-disease-prediction) |
+| **[12]** | A Low-Cost Real-Time Multimodal Seizure Detection System Using MAX30102 and Accelerometry | **ICACS 2026** | Under Review | [📄 Paper](./12-Multimodal-Seizure-Detection-MAX30102/Low_Cost_Real_Time_Multimodal_Seizure_Detection_System_MAX30102.pdf) | — | [💻 `multimodal-seizure-detection-max30102`](https://github.com/VIBHAS777/multimodal-seizure-detection-max30102) |
+| **[13]** | Detecting Health Misinformation: AI Solutions for Medical and Policy Content | **4th IEEE ICKECS 2026** | 🏆 **Best Paper Award** | [📄 Paper](./13-Detecting-Health-Misinformation-AI-Solutions/Detecting_Health_Misinformation_AI_Solutions_for_Medical_and_Policy_Content.pdf) | [🏆 Award Certificate](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.pdf) | [💻 `health-misinformation-ai-detection`](https://github.com/VIBHAS777/health-misinformation-ai-detection) |
+| **[14]** | AI-Powered Waste Detection and Sorting using Object Detection | **4th IEEE ICSSAS 2026** | Presented | [📄 Paper](./14-AI-Powered-Waste-Detection-Sorting/AI-Powered_Waste_Detection_and_Sorting_using_Object_Detection.pdf) | — | [💻 `waste-detection-sorting-yolov8`](https://github.com/VIBHAS777/waste-detection-sorting-yolov8) |
+| **[15]** | Efficient Malayalam Handwritten Character Recognition Using ConvNeXt-PCA-RandomForest architecture | **IEEE I3CTCON 2026** | Presented | [📄 Paper](./15-Malayalam-Character-Recognition-ConvNeXt-RF/Efficient_Malayalam_Handwritten_Character_Recognition_Using_ConvNeXt-PCA-RandomForest_architecture.pdf) | — | [💻 `malayalam-character-recognition-convnext-rf`](https://github.com/VIBHAS777/malayalam-character-recognition-convnext-rf) |
+| **[16]** | Heart Disease Risk Prediction Using Deep Learning and Probabilistic Calibration Techniques | **Engineered Science (Q1 Journal)** | Published | [📄 Paper](./16-Calibrated-Heart-Disease-Risk-Prediction/ES-2026-0082.R2_Proof_hi.pdf) | — | [💻 `calibrated-heart-disease-risk-prediction`](https://github.com/VIBHAS777/calibrated-heart-disease-risk-prediction) |
 
 ---
 
@@ -100,8 +103,36 @@ This repository archives selected research publications and conference presentat
 - **Conference:** 4th IEEE International Conference on Knowledge Engineering and Communication Systems (ICKECS 2026), SJC Institute of Technology & IEEE Bangalore Section
 - **Authors:** Hima Sagar B, A Vibhas Reddy, S Pavan Kumar, Manju Venugopalan
 - **Directory:** [`13-Detecting-Health-Misinformation-AI-Solutions/`](./13-Detecting-Health-Misinformation-AI-Solutions/)
+- **Repository:** [`health-misinformation-ai-detection`](https://github.com/VIBHAS777/health-misinformation-ai-detection)
 - **Award / Certificate:** [🏆 Best Paper Award (PDF)](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.pdf) | [Image](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.jpeg)
 - **Summary:** Proposed automated AI classification frameworks utilizing transformer-based language models and hybrid architectures to detect health misinformation across medical claims and public health policy content. Awarded **Best Paper Award** at the 4th IEEE ICKECS 2026.
+
+---
+
+### [14] AI-Powered Waste Detection and Sorting using Object Detection
+- **Conference:** 4th International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS 2026)
+- **Authors:** A Vibhas Reddy, Hima Sagar B, S Pavan Kumar
+- **Directory:** [`14-AI-Powered-Waste-Detection-Sorting/`](./14-AI-Powered-Waste-Detection-Sorting/)
+- **Repository:** [`waste-detection-sorting-yolov8`](https://github.com/VIBHAS777/waste-detection-sorting-yolov8)
+- **Summary:** Engineered an end-to-end automated waste segregation system built on YOLOv8 object detection, classifying municipal items into Biodegradable and Non-Biodegradable categories with real-time robotic actuator routing.
+
+---
+
+### [15] Efficient Malayalam Handwritten Character Recognition Using ConvNeXt-PCA-RandomForest architecture
+- **Conference:** 2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON), Lonavala, India
+- **Authors:** Hima Sagar B, A Vibhas Reddy, S Pavan Kumar, Peeta Basa Pati
+- **Directory:** [`15-Malayalam-Character-Recognition-ConvNeXt-RF/`](./15-Malayalam-Character-Recognition-ConvNeXt-RF/)
+- **Repository:** [`malayalam-character-recognition-convnext-rf`](https://github.com/VIBHAS777/malayalam-character-recognition-convnext-rf)
+- **Summary:** Implemented a high-efficiency hybrid architecture uniting a ConvNeXt-Tiny deep feature extractor, PCA orthogonal dimensionality reduction (768 to 64 dims), and Random Forest ensemble classification for cursive Malayalam characters.
+
+---
+
+### [16] Heart Disease Risk Prediction Using Deep Learning and Probabilistic Calibration Techniques
+- **Journal:** *Engineered Science* (Q1 Journal, Manuscript ID: ES-2026-0082.R2)
+- **Authors:** Bajjareddy Venkatesh, Rashmi M R, Meera K, Hoong Pine Lee, Hima Sagar B, Araveeti Vibhas Reddy, Bharghav Vardhan Reddy Irigela
+- **Directory:** [`16-Calibrated-Heart-Disease-Risk-Prediction/`](./16-Calibrated-Heart-Disease-Risk-Prediction/)
+- **Repository:** [`calibrated-heart-disease-risk-prediction`](https://github.com/VIBHAS777/calibrated-heart-disease-risk-prediction)
+- **Summary:** Developed a clinical risk framework pairing a bagged Multi-Layer Perceptron (MLP) ensemble with Bayesian Bootstrap Aggregation and Platt/Isotonic probabilistic calibration, minimizing the Brier score to 0.0489 and holding false negative rates below 3%.
 
 ---
 
@@ -133,6 +164,29 @@ This repository archives selected research publications and conference presentat
   title={Detecting Health Misinformation: AI Solutions for Medical and Policy Content},
   author={Sagar B, Hima and Reddy, A Vibhas and Kumar, S Pavan and Venugopalan, Manju},
   booktitle={4th IEEE International Conference on Knowledge Engineering and Communication Systems (ICKECS)},
+  year={2026}
+}
+
+@inproceedings{reddy2026wastedetection,
+  title={AI-Powered Waste Detection and Sorting using Object Detection},
+  author={Reddy, A Vibhas and Sagar B, Hima and Kumar, S Pavan},
+  booktitle={4th International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)},
+  year={2026}
+}
+
+@inproceedings{sagar2026malayalam,
+  title={Efficient Malayalam Handwritten Character Recognition Using ConvNeXt-PCA-RandomForest architecture},
+  author={Sagar B, Hima and Reddy, A Vibhas and Kumar, S Pavan and Pati, Peeta Basa},
+  booktitle={IEEE International Conference for Convergence in Computing Technology (I3CTCON)},
+  year={2026}
+}
+
+@article{venkatesh2026heartdisease,
+  title={Heart Disease Risk Prediction Using Deep Learning and Probabilistic Calibration Techniques},
+  author={Venkatesh, Bajjareddy and M R, Rashmi and K, Meera and Lee, Hoong Pine and Sagar B, Hima and Reddy, Araveeti Vibhas and Irigela, Bharghav Vardhan Reddy},
+  journal={Engineered Science},
+  volume={Online First},
+  pages={ES-2026-0082},
   year={2026}
 }
 ```
