@@ -19,8 +19,9 @@ This repository archives selected research publications and conference presentat
 | **[8]** | AI-Driven Load Balancer with Blockchain-Based Decision Making in Banking System | **10th ICECA 2026** | Presented | [📄 Paper](./08-AI-Driven-Load-Balancer-Banking/AI_Driven_Load_Balancer_with_Blockchain_Decision_Making_in_Banking.pdf) | [🎖️ Certificate](./08-AI-Driven-Load-Balancer-Banking/Certificate_ICECA_2026.pdf) |
 | **[9]** | Stability Threshold and Performance Degradation Analysis of Priority-Aware SDN in Healthcare IoT Systems | **6th ICUIS 2026** | Presented | [📄 Paper](./09-Priority-Aware-SDN-Healthcare-IoT/Stability_Threshold_and_Performance_Degradation_Priority_Aware_SDN.pdf) | [🎖️ Certificate](./09-Priority-Aware-SDN-Healthcare-IoT/Certificate_ICUIS_2026.pdf) |
 | **[10]** | Intelligent Congestion Prediction and Control in Data Center Networks Using SDN and Deep Learning | **ICon INDIA 2026** | Accepted | [📄 Paper](./10-SDN-Deep-Learning-Congestion-Control/Intelligent_Congestion_Prediction_and_Control_in_Data_Center_Networks.pdf) | [📩 Acceptance](./10-SDN-Deep-Learning-Congestion-Control/Acceptance_Email_ICon_INDIA_2026.pdf) |
-| **[11]** | A Unified Machine Learning Pipeline for Early Prediction of Heart Disease, Diabetes Mellitus, and Alzheimer’s Disease | **ICRTAC 2026** | Under Review | [📄 Paper](./11-Unified-Chronic-Disease-Prediction-Pipeline/Unified_ML_Pipeline_Early_Prediction_Heart_Disease_Diabetes_Alzheimers.pdf) | — |
+| **[11]** | A Unified Machine Learning Pipeline for Early Prediction of Heart Disease, Diabetes Mellitus, and Alzheimer’s Disease | **ICRTAC 2026** | Accepted | [📄 Paper](./11-Unified-Chronic-Disease-Prediction-Pipeline/Unified_ML_Pipeline_Early_Prediction_Heart_Disease_Diabetes_Alzheimers.pdf) | [📩 Acceptance](./11-Unified-Chronic-Disease-Prediction-Pipeline/Acceptance.pdf) |
 | **[12]** | A Low-Cost Real-Time Multimodal Seizure Detection System Using MAX30102 and Accelerometry | **ICACS 2026** | Under Review | [📄 Paper](./12-Multimodal-Seizure-Detection-MAX30102/Low_Cost_Real_Time_Multimodal_Seizure_Detection_System_MAX30102.pdf) | — |
+| **[13]** | Detecting Health Misinformation: AI Solutions for Medical and Policy Content | **4th IEEE ICKECS 2026** | 🏆 **Best Paper Award** | [📄 Paper](./13-Detecting-Health-Misinformation-AI-Solutions/Detecting_Health_Misinformation_AI_Solutions_for_Medical_and_Policy_Content.pdf) | [🏆 Award Certificate](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.pdf) |
 
 ---
 
@@ -95,6 +96,15 @@ This repository archives selected research publications and conference presentat
 
 ---
 
+### [13] Detecting Health Misinformation: AI Solutions for Medical and Policy Content
+- **Conference:** 4th IEEE International Conference on Knowledge Engineering and Communication Systems (ICKECS 2026), SJC Institute of Technology & IEEE Bangalore Section
+- **Authors:** Hima Sagar B, A Vibhas Reddy, S Pavan Kumar, Manju Venugopalan
+- **Directory:** [`13-Detecting-Health-Misinformation-AI-Solutions/`](./13-Detecting-Health-Misinformation-AI-Solutions/)
+- **Award / Certificate:** [🏆 Best Paper Award (PDF)](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.pdf) | [Image](./13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.jpeg)
+- **Summary:** Proposed automated AI classification frameworks utilizing transformer-based language models and hybrid architectures to detect health misinformation across medical claims and public health policy content. Awarded **Best Paper Award** at the 4th IEEE ICKECS 2026.
+
+---
+
 ## 📜 Citation Format
 
 ```bibtex
@@ -116,6 +126,13 @@ This repository archives selected research publications and conference presentat
   title={Automated Medical Image Analysis for Brain Tumor and Skin Disease Diagnosis Using Transfer Learning and Grad-CAM},
   author={Reddy, Araveeti Vibhas and Sagar B, Hima and Reddy, Irigela Bharghava Vardhan and Kumar, S Pavan and Sampath, Nalini},
   booktitle={3rd International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)},
+  year={2026}
+}
+
+@inproceedings{reddy2026healthmisinfo,
+  title={Detecting Health Misinformation: AI Solutions for Medical and Policy Content},
+  author={Sagar B, Hima and Reddy, A Vibhas and Kumar, S Pavan and Venugopalan, Manju},
+  booktitle={4th IEEE International Conference on Knowledge Engineering and Communication Systems (ICKECS)},
   year={2026}
 }
 ```
