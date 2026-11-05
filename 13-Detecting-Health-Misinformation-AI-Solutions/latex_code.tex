@@ -1,0 +1,282 @@
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim} 
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+% \usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{tt}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 }
+  }
+}
+
+% Publications: justified text, [Paper] link kept in one piece
+\newcommand{\resumeItemPublication}[2]{
+  \item\footnotesize{\rightskip=0pt\relax\emergencystretch=3em\leavevmode
+    #1\unskip~\mbox{#2}\par
+  }
+}
+
+\newcommand{\venue}[1]{\textls[15]{\textsc{\textcolor{gray!70}{#1}}}}
+\newcommand{\journal}[1]{\textls[15]{\textsc{\textcolor{gray!70}{#1}}}}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+    \textbf{#1}\hfill #2\\[1pt]
+    \textit{\small#3}\hfill\textit{\small #4}\par\vspace{2pt}%
+}
+
+\newcommand{\resumeSubheadingTwo}[2]{
+  \vspace{0pt}\item[]
+    \textbf{#1}\hfill #2\par\nopagebreak\vspace{1pt}%
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+
+% Uniform filled bullets at every level
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, labelwidth=0pt, labelsep=0pt, labelindent=0pt, itemindent=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeSubHeadingNumberStart}{%
+  \begin{enumerate}[leftmargin=2.8em, labelindent=0.4em, labelwidth=1.7em, labelsep=0.7em, align=left, label={[\arabic*]}]%
+}
+\newcommand{\resumeSubHeadingNumberEnd}{\end{enumerate}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\small
+\setlist[itemize]{leftmargin=*,labelindent=0.6em,labelsep=0.5em,topsep=3pt,parsep=0pt,partopsep=0pt}
+
+%----------HEADING-----------------
+\begin{center}
+  {\LARGE \textbf{VIBHAS REDDY ARAVEETI}}\\[4pt]
+  \faGlobe\;\href{https://portfolio-vibhasf17-4811.vercel.app/}{Portfolio} \quad
+  \faEnvelope\;\href{mailto:vibhasf17@gmail.com}{vibhasf17@gmail.com} \quad
+  \faPhone\;+91 63013 26306 \quad
+  \faLinkedin\;\href{https://www.linkedin.com/in/araveeti-vibhas-reddy-329b19291/}{LinkedIn} \quad
+  \faGraduationCap\;\href{https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AN_4Zu8eJn7hGADizn1nlrwoGJPhVHfqSGZ8C3mjxd3F5X6qqm9l9fAdWKvJLqJBGBSIPndmTOc00tn0eIFiyw&user=d_uIop8AAAAJ}{Google Scholar}
+\end{center}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Amrita Vishwa Vidyapeetham}{Bengaluru, India}
+      {Bachelor of Technology, Computer Science and Engineering, \textbf{GPA: 8.65/10}}{2023 -- 2027}
+    \item[] \small\textbf{Relevant Coursework:} Data Structures and Algorithms, Object-Oriented Programming, Operating Systems, Computer Organization, Database Management Systems, Computer Networks, Machine learning, Deep learning, natural language processing, Distributed systems, Probability, Calculus, Linear Algebra, Discrete mathematics
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+  \resumeSubHeadingNumberStart
+  \setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}
+  \resumeItemPublication{\llap{``}Heart Disease Risk Prediction Using Deep Learning and Probabilistic Calibration Techniques,'' \textit{Engineered Science}, Q1 journal.}
+  {\textbf{\href{https://www.espublisher.com/journals/articledetails/2461}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}AI-Powered Waste Detection and Sorting Using Object Detection,'' in \textit{Proc. IEEE Int. Conf. Self-Sustainable Artificial Intelligence Systems (ICSSAS)}, 2026.}
+  {\textbf{\href{https://ieeexplore.ieee.org/document/11559513}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Detecting Health Misinformation: AI Solutions for Medical and Policy Content,'' in \textit{Proc. IEEE Int. Conf. Knowledge Engineering and Communication Systems (ICKECS)}, 2026. \textbf{\href{https://github.com/VIBHAS777/research-papers/blob/main/13-Detecting-Health-Misinformation-AI-Solutions/Best_Paper_Award_ICKECS_2026.pdf}{Best Paper Award.}}}
+  {\textbf{\href{https://ieeexplore.ieee.org/document/11528010}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Efficient Malayalam Handwritten Character Recognition Using ConvNeXt-PCA-RandomForest Architecture,'' in \textit{Proc. IEEE Int. Conf. Convergence in Computing Technology (I3CTCON)}, 2026.}
+  {\textbf{\href{https://ieeexplore.ieee.org/document/11507971}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Enhancing CPU Benchmark Scores Using RNN-Based Deadlock Detection from System Logs,'' presented at the 16th ICCCNT, 2025.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/tree/main/05-RNN-Based-Deadlock-Detection}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Optimization of Space Shuttle External Tank Design Return on Investment (ROI),'' presented at ICAANA, 2025.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/blob/main/06-Space-Shuttle-External-Tank-ROI/Optimization_of_Space_Shuttle_External_Tank_Design_ROI.pdf}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Automated Medical Image Analysis for Brain Tumor and Skin Disease Diagnosis Using Transfer Learning and Grad-CAM,'' presented at the 3rd ICITEICS, 2026.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/tree/main/07-Automated-Medical-Image-Analysis-Grad-CAM}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}AI-Driven Load Balancer with Blockchain-Based Decision Making in Banking System,'' presented at the 10th ICECA, 2026.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/tree/main/08-AI-Driven-Load-Balancer-Banking}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Stability Threshold and Performance Degradation Analysis of Priority-Aware SDN in Healthcare IoT Systems,'' presented at ICUIS, 2026.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/tree/main/09-Priority-Aware-SDN-Healthcare-IoT}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}Intelligent Congestion Prediction and Control in Data Center Networks Using SDN and Deep Learning,'' accepted at ICON INDIA, 2026.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/tree/main/10-SDN-Deep-Learning-Congestion-Control}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}A Unified Machine Learning Pipeline for Early Prediction of Heart Disease, Diabetes Mellitus, and Alzheimer's Disease,'' accepted at ICRTAC, 2026.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/tree/main/11-Unified-Chronic-Disease-Prediction-Pipeline}{[Paper]}}}
+
+  \resumeItemPublication{\llap{``}A Low-Cost Real-Time Multimodal Seizure Detection System Using MAX30102 and Accelerometry,'' under review at ICACS, 2026.}
+  {\textbf{\href{https://github.com/VIBHAS777/research-papers/blob/main/12-Multimodal-Seizure-Detection-MAX30102/Low_Cost_Real_Time_Multimodal_Seizure_Detection_System_MAX30102.pdf}{[Paper]}}}
+  \resumeSubHeadingNumberEnd
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheadingTwo
+    {Amrita University}{Bengaluru, India}
+
+    \begin{itemize}[leftmargin=0pt, labelwidth=0pt, labelsep=0pt, labelindent=0pt, itemindent=0pt, itemsep=0pt]
+            \item[] \small\textbf{Research Intern} \hfill \textit{Mar 2025 -- Jun 2026}
+        \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+          \item Investigated heart attack risk prediction to improve the reliability of clinical risk assessment through deep learning and probabilistic calibration, under the supervision of Dr. B. Venkatesh.
+          \item Built and trained a bagged Multilayer Perceptron (MLP) ensemble framework in Python using scikit-learn and PyTorch, integrating Bayesian bootstrap aggregation with multi-technique probability calibration (Platt scaling, isotonic regression, and histogram binning).
+          \item Engineered domain-specific clinical preprocessing pipelines and interaction features, including Cholesterol $\times$ BMI, pulse pressure to BP ratio, and Age $\times$ Stress level, using Pandas and NumPy.
+          \item Achieved 96.42\% model accuracy with a Brier score of 0.0489, a recall of 0.97, and a false negative rate reduced to 3\% through rigorous data preparation and calibration, ensuring predicted risk scores reflected real-world medical frequencies.
+          \item Co-authored the research, published in the Q1-indexed journal Engineered Science (DOI: 10.30919/es2461).
+        \end{itemize}
+    \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Academic Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheadingTwo
+      {Automated Medical Image Analysis for Brain Tumor and Skin Disease Diagnosis\ \href{https://github.com/VIBHAS777/medical-image-analysis-gradcam}{GitHub}}{\textit{Aug 2024 -- Dec 2024}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Developed a unified deep learning pipeline for brain tumor and skin disease diagnosis, applying transfer learning with VGG16, ResNet-50, and EfficientNet models to address variability across medical imaging domains.
+      \item Compared CNN and transfer-learning architectures across MRI and dermoscopic datasets to evaluate classification performance across different medical imaging tasks.
+      \item Improved diagnostic performance and interpretability, achieving 94\% brain tumor accuracy and 99\% skin disease accuracy with 0.993 AUC, while using Grad-CAM to identify image regions driving model predictions.
+    \end{itemize}
+
+    \resumeSubheadingTwo
+      {Unified Disease Prediction Pipeline\ \href{https://github.com/VIBHAS777/unified-chronic-disease-prediction}{GitHub}}{\textit{Aug 2025 -- Nov 2025}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Built an end-to-end machine learning pipeline for early prediction of heart disease, diabetes, and Alzheimer's disease, using disease-specific preprocessing, SMOTE, and feature engineering across multiple classification models.
+      \item Evaluated multiple classifiers across three disease-specific datasets using stratified data splitting and standardized preprocessing to compare predictive performance across clinical domains.
+      \item Achieved 89.3\% accuracy for heart disease, 76.6\% for diabetes, and 82.47\% accuracy with a 0.8984 AUC-ROC for Alzheimer's, using the best-performing model for each disease.
+    \end{itemize}
+
+    \newpage
+    \resumeSubheadingTwo
+      {AI-Powered Health Misinformation Detection\ \href{https://github.com/VIBHAS777/health-misinformation-ai-detection}{GitHub}}{\textit{Oct 2025 -- Feb 2026}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Addressed class imbalance in biomedical misinformation detection by applying T5-based paraphrasing to the underrepresented Refute class and introducing an enhanced three-column claim-evidence-question representation.
+      \item Compared biomedical transformer models, including BioBERT, RoBERTa, SciBERT, and ClinicalBERT, against Meta-Llama-3-8B-Instruct for three-class claim verification: Support, Refute, and Neutral.
+      \item Achieved 83.91\% accuracy and 0.7831 Macro-F1 using zero-shot Meta-Llama-3-8B-Instruct, while BioBERT with augmentation improved Refute-class F1 from 0.6486 to 0.7264.
+    \end{itemize}
+
+    \resumeSubheadingTwo
+      {A Low-Cost Real-Time Multimodal Seizure Detection System\ \href{https://github.com/VIBHAS777/multimodal-seizure-detection-max30102}{GitHub}}{\textit{Feb 2026 -- May 2026}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Built a low-cost real-time seizure monitoring prototype combining MAX30102 heart-rate sensing, MPU6050 accelerometry, and an Arduino Uno for multimodal physiological monitoring.
+      \item Designed a signal fusion algorithm using physiological thresholds to cut false alarms from isolated heart-rate or motion anomalies, enabling real-time alerts with event timestamping.
+      \item Integrated concurrent heart-rate and motion threshold checks to trigger audiovisual alerts when both signals indicated abnormal activity, supporting continuous monitoring outside clinical settings.
+    \end{itemize}
+
+    \resumeSubheadingTwo
+      {RNN-Based Deadlock Detection for CPU Performance Optimization\ \href{https://github.com/VIBHAS777/rnn-deadlock-detection}{GitHub}}{\textit{Feb 2025 -- May 2025}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Designed a Python/PyTorch system that generated simulated OS logs and used a 2-layer RNN to detect impending deadlocks from sequential process and resource events.
+      \item Processed simulated operating-system logs into sequential, one-hot-encoded event representations to capture temporal dependencies in process and resource allocation patterns.
+      \item Achieved 90.25\% test accuracy in deadlock prediction and raised the simulated CPU benchmark score from 70 to 98.02, representing a 28.02\% improvement through proactive detection.
+    \end{itemize}
+
+    \resumeSubheadingTwo
+      {Space Shuttle External Tank ROI Optimization\ \href{https://github.com/VIBHAS777/space-shuttle-tank-roi-optimization}{GitHub}}{\textit{Jan 2025 -- May 2025}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Developed a data-driven framework combining SLSQP constrained optimization and ML regression to optimize tank dimensions, material properties, cost, and structural constraints for ROI maximization.
+      \item Applied SLSQP-based constrained optimization to determine cost-effective tank designs while maintaining structural integrity and stability under operational constraints.
+      \item Achieved a strong regression performance with an R$^2$ of 0.9086, MAE of 0.0129, and MSE of 0.000451, while identifying an optimized tank configuration yielding a 44.35\% ROI under volume, stress, and vibration constraints.
+    \end{itemize}
+
+    \resumeSubheadingTwo
+      {Stability Threshold and Performance Degradation Analysis of Priority-Aware SDN\ \href{https://github.com/VIBHAS777/priority-aware-sdn-healthcare-iot}{GitHub}}{\textit{Jan 2026 -- Jun 2026}}
+    \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+      \item Engineered a priority-aware SDN framework combining Dijkstra-based dynamic routing with tabular Q-learning to adapt queue weights across four healthcare IoT traffic classes under varying network loads.
+      \item Assessed adaptive traffic prioritization under varying network loads to determine its effectiveness in maintaining reliable and low-latency communication for critical healthcare IoT traffic.
+      \item Reduced overall P95 latency by 40\% and jitter by 84\% at peak load, while maintaining 100\% on-time delivery for Critical traffic and lowering the Weighted Performance Degradation Index from 0.302 to 0.276.
+    \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------------
+\section{Leadership Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheadingTwo
+      {Amrita Vishwa Vidyapeetham}{Bengaluru, India}
+
+    \begin{itemize}[leftmargin=0pt, labelwidth=0pt, labelsep=0pt, labelindent=0pt, itemindent=0pt, itemsep=0pt]
+            \item[] \small\textbf{Co-Founder \& Lead Developer -- ML Minds} \hfill \textit{Sep 2024 -- Present}
+        \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+          \item Co-founded and led a student-driven machine learning community, organizing technical workshops and initiatives for members.
+          \item Mentored peer members on ML concepts and projects, fostering a collaborative learning environment within the group.
+        \end{itemize}
+
+      \vspace{2pt}
+      \item[] \small\textbf{Captain -- Powerlifting Team} \hfill \textit{Jul 2024 -- Feb 2025}
+        \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+          \item Guided team members to compete in competitive powerlifting events.
+          \item Led the university powerlifting team, coordinating training schedules across the squad.
+        \end{itemize}
+
+      \vspace{2pt}
+      \item[] \small\textbf{Cultural Coordinator -- Kalanjali 2025 (College Fest)} \hfill \textit{Apr 2025}
+        \begin{itemize}[leftmargin=*, itemsep=0.5pt, label={$\bullet$}]
+          \item Managed event logistics for Kalanjali 2025 and directed student teams to execute the event successfully.
+        \end{itemize}
+    \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------Awards-----------------
+\section{Awards and Achievements}
+\begin{itemize}[leftmargin=*, itemsep=1pt, label={$\bullet$}]
+\item {\small Best Paper Award, 2026 International Conference on Knowledge Engineering and Communication Systems (ICKECS 2026), for ``Detecting Health Misinformation: AI Solutions for Medical and Policy Content.''}
+\item {\small Recognized among the top 3\% of student researchers across the university for research contributions.}
+\item {\small Secured 1st place in the Arista Networks Boot Camp 2026 with a score of 86\%.}
+\end{itemize}
+
+%-----------Skills-----------------
+\section{Skills and Interests}
+	\begin{itemize}[leftmargin=*, itemsep=1pt, label={$\bullet$}]
+	\resumeSubItem{Technical Skills:}{Python, Java, JavaScript, C, C++, TypeScript, Go, Rust, Ruby, SQL, NumPy, Pandas, SciPy, Scikit-learn, PyTorch, TensorFlow, Keras, LightGBM, XGBoost, CatBoost, Random Forest, SMOTE, CNNs, Transfer Learning, Reinforcement Learning, OpenCV, Grad-CAM, Explainable AI (XAI), SHAP, LIME, NiBabel, Matplotlib, Seaborn, MLflow, FHIR, HL7}
+	\resumeSubItem{Developer Tools:}{VS Code, Git, GitHub, Jupyter Notebook, Docker, Kubernetes, Postman, Linux/Bash}
+	\resumeSubItem{Other Interests:}{Open-Source Development, Hackathons, Competitive Programming, Technical Mentoring, Powerlifting, Swimming, Public Speaking, Aviation and Space Exploration, Social Entrepreneurship, Photography}
+\end{itemize}
+
+\end{document}
